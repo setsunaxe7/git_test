@@ -20,3 +20,7 @@ For example,
 git add . is read as git | add | ., where the period represents everything in the current directory;
 git commit -m "message" is read as git | commit -m | "message"; and
 git status is read as git | status | (no destination).
+
+## Write commit message w VSC:
+git config --global core.editor "code --wait"
+and then type after hitting enter, use ctrl s to save
